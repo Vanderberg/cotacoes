@@ -26,7 +26,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'Sobre',
-        author: 'Biharck Araújo'
+        author: 'Vander Nunes'
     })
 })
 
